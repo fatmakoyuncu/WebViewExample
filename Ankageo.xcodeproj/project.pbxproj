@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		340E121A26F4BE510008C3E6 /* userAgentExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = userAgentExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		340E121A26F4BE510008C3E6 /* Ankageo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ankageo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		340E121D26F4BE510008C3E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		340E121F26F4BE510008C3E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		340E122126F4BE510008C3E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		340E121126F4BE500008C3E6 = {
 			isa = PBXGroup;
 			children = (
-				340E121C26F4BE510008C3E6 /* userAgentExample */,
+				340E121C26F4BE510008C3E6 /* Ankageo */,
 				340E121B26F4BE510008C3E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		340E121B26F4BE510008C3E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				340E121A26F4BE510008C3E6 /* userAgentExample.app */,
+				340E121A26F4BE510008C3E6 /* Ankageo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		340E121C26F4BE510008C3E6 /* userAgentExample */ = {
+		340E121C26F4BE510008C3E6 /* Ankageo */ = {
 			isa = PBXGroup;
 			children = (
 				340E121D26F4BE510008C3E6 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				340E122826F4BE510008C3E6 /* LaunchScreen.storyboard */,
 				340E122B26F4BE510008C3E6 /* Info.plist */,
 			);
-			path = userAgentExample;
+			path = Ankageo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		340E121926F4BE500008C3E6 /* userAgentExample */ = {
+		340E121926F4BE500008C3E6 /* Ankageo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 340E122E26F4BE510008C3E6 /* Build configuration list for PBXNativeTarget "userAgentExample" */;
+			buildConfigurationList = 340E122E26F4BE510008C3E6 /* Build configuration list for PBXNativeTarget "Ankageo" */;
 			buildPhases = (
 				340E121626F4BE500008C3E6 /* Sources */,
 				340E121726F4BE500008C3E6 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = userAgentExample;
+			name = Ankageo;
 			productName = userAgentExample;
-			productReference = 340E121A26F4BE510008C3E6 /* userAgentExample.app */;
+			productReference = 340E121A26F4BE510008C3E6 /* Ankageo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 340E121526F4BE500008C3E6 /* Build configuration list for PBXProject "userAgentExample" */;
+			buildConfigurationList = 340E121526F4BE500008C3E6 /* Build configuration list for PBXProject "Ankageo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				340E121926F4BE500008C3E6 /* userAgentExample */,
+				340E121926F4BE500008C3E6 /* Ankageo */,
 			);
 		};
 /* End PBXProject section */
@@ -288,12 +288,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8W2C55BTXB;
-				INFOPLIST_FILE = userAgentExample/Info.plist;
+				INFOPLIST_FILE = Ankageo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fatma.userAgentExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatma.Ankageo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,12 +307,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8W2C55BTXB;
-				INFOPLIST_FILE = userAgentExample/Info.plist;
+				INFOPLIST_FILE = Ankageo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fatma.userAgentExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatma.Ankageo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		340E121526F4BE500008C3E6 /* Build configuration list for PBXProject "userAgentExample" */ = {
+		340E121526F4BE500008C3E6 /* Build configuration list for PBXProject "Ankageo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				340E122C26F4BE510008C3E6 /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		340E122E26F4BE510008C3E6 /* Build configuration list for PBXNativeTarget "userAgentExample" */ = {
+		340E122E26F4BE510008C3E6 /* Build configuration list for PBXNativeTarget "Ankageo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				340E122F26F4BE510008C3E6 /* Debug */,
